@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+  	{% include tagmanager.html %}
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper welcome">
+      	<div class="slick-container-container">
+	      	<div class="slick-container">
+		      	<div class="slick">
+		    		<div>
+						<p>There are 9 experiences within You:Matter and each of these is a section in this guide.
+						</p>
+
+						<p> You:Matter is an immersive digital art experience with some access considerations.</p>
+						<div class="prompt slick-slide-to-next">Swipe to read more
+						<span class="button-forward">
+	      					<img src="{{ site.baseurl }}/assets/img/icons/button_forward.png"/>
+	    				</span>
+	    				</div>
+					</div>
+					<div>
+						<p>To Navigate the Guide: Look out for the headphones symbol in the exhibition and then hit the number you&rsquo;re in front of to begin.</p>
+						<p>
+							<img class="welcome-example-icon slick-slide-to-next" src="{{ site.baseurl }}/assets/img/welcome/example-headphones-icon.gif"/>
+						</p>
+					</div>
+					<div>
+						<p>Press the menu icon at the top right of the screen to change stops.</p>
+						<p>
+							<img class="screenshot slick-slide-to-next" src="{{ site.baseurl }}/assets/img/welcome/highlight-bento-menu.gif"/>
+						</p>
+					</div>
+					<div>
+						<p>Use the buttons at the bottom of the screen to move to the next or previous stop.</p>
+						<p>
+							<img class="screenshot slick-slide-to-next" src="{{ site.baseurl }}/assets/img/welcome/highlight-footer-buttons.gif"/>
+						</p>
+					</div>
+					<div>
+						<p>Access Considerations:
+						</p>
+							<p>The light and contrast levels throughout the gallery are low</p>
+							<p>There are ambient soundtracks specific to each area</p>
+							<p>Transcripts to spoken content are provided in this guide </p>
+							<p>Audio of printed content is provided in this guide </p>
+							<p>The first and final experiences feature reflective flooring and walls...</p>
+							
+					</div>
+					<div>
+							<p>Sensors to interact with We Live In An Ocean Of Air and Tree of Life are mounted in the middle of the floor on dark coloured concrete plinths</p> 
+							<p>Head in the Clouds features two large suspended clouds at head height, visitors can duck inside to hear the content and have a photo opp.</p>
+							<p>There are floor markers for cane users here.</p> 
+							<p>The sensors to interact with Sunlight Under My Skin are on a plinth in the centre of the floor. </p>
+							<p>Place your hand on one of the pillars to start the interaction. </p>
+							<p>Seating is provided in We Live In An Ocean Of Air and Tree of Life </p>
+							
+						<p>
+					</div>
+					<div>
+						<br/>
+						<p class="centered"><a href="{{ site.baseurl }}/">Let&rsquo;s begin!</a></p>
+						<p class="centered">
+							<a href="{{ site.baseurl }}/" class="prompt-big"><button class="styled-button"><img src="{{ site.baseurl }}/assets/img/icons/button_forward.png"/></button></a>
+						</p>
+					</div>
+		    	</div>
+		    </div>
+		</div>
+	    <div id="arrows-container">
+	    </div>
+
+        {{ content }}
+      </div>
+      	    <p class="skip-text">
+	    	<a href="{{ site.baseurl }}/">
+	        	I&rsquo;m good, let&rsquo;s begin!
+	    	</a>
+	    </p>
+    </div>
+
+  </body>
+
+</html>
